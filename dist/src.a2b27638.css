@@ -1,0 +1,59 @@
+/* Add this CSS for styling and responsiveness */
+.indicators-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.indicator {
+  text-align: center;
+  margin: 10px;
+  width: 500px; /* Adjust the width as needed */
+}
+
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Ensure the sliders take full width */
+}
+
+/* Add media query for responsive layout */
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .indicator {
+    margin: 10px 0;
+  }
+
+  .slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .slider-container label {
+    margin: 5px 0; /* Adjust the margin for better spacing */
+  }
+}
+
+/* Add this CSS to create space for indicators with one slider */
+.single-slider {
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+
+/*# sourceMappingURL=/src.a2b27638.css.map */
